@@ -12,28 +12,18 @@ span{
 }
 
 body{
-	color:000000;
+	color:#FFF;
 }
 
-.modal{
-	display: none;
-	position: fixed;
-	z-index: 1000;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background: rgba(255,255,255,.8)
-				url('/images/loading.gif')
-				50% 50%
-				no-repeat;
+.ui-overlay-c{
+	color:#FFF;
+
+.ui-icon-twitter{
+    background: url("http://www.idsketching.com/img/twitter_icon2.png") 
+    no-repeat rgba(0, 0, 0, 0.4) !important;
 }
 
-body.loading{
-	overflow: hidden;
-}
-
-body.loading.modal{
-	display: block;
+p{
+	text-align:center;
 }
 

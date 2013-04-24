@@ -30,39 +30,11 @@
         </script>
     </head>
     <body>
+        <!-- Home -->
         
-        <!-- Nav Bar -->
-
-<div data-role="page" id="page1" data-theme = "a">
-    <div data-role="content">
-        <div data-role="navbar" data-iconpos="top">
-            <ul>
-                <li>
-                    <a href="#page1" data-transition="fade" data-theme="a" data-icon="gear">
-                        Phillies
-                    </a>
-                </li>
-                <li>
-                    <a href="#page1" data-transition="fade" data-theme="a" data-icon="gear">
-                        Flyers
-                    </a>
-                </li>
-                <li>
-                    <a href="#page1" data-transition="fade" data-theme="a" data-icon="gear">
-                        Eagles
-                    </a>
-                </li>
-                <li>
-                    <a href="#page1" data-transition="fade" data-theme="a" data-icon="gear">
-                        Sixers
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-        <!-- Home Section -->
-
+        <div data-role="page" id="page1">
+            <div data-role="content">
+                <div id="phlCollapse" data-role="collapsible-set" data-theme="a" data-content-theme="a">
                     <div data-role="collapsible">
                         <h3>
                             Philadelphia Phillies
