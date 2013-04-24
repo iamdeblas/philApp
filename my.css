@@ -12,18 +12,15 @@ span{
 }
 
 body{
+	text-align:center;
 	color:#FFF;
 }
 
 .ui-overlay-c{
 	color:#FFF;
 
-.ui-icon-twitter{
-    background: url("http://www.idsketching.com/img/twitter_icon2.png") 
-    no-repeat rgba(0, 0, 0, 0.4) !important;
-}
-
-p{
+.collapsible{
+	color:#ed1c24;
 	text-align:center;
 }
 
